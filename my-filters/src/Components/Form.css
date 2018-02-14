@@ -1,0 +1,28 @@
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  align-self: center;
+  margin-top: 40px;
+}
+
+.signup-form__input {
+  margin-bottom: 24px;
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+  background-color: #AAFFC7;
+  outline: none;
+}
+
+.signup-form__button {
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0 auto;
+  background-color: #FFDD5C;
+  border-radius: 8px;
+}
