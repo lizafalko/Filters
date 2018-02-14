@@ -14,7 +14,18 @@
   border: none;
   background-color: #AAFFC7;
   outline: none;
+  transition: 0.2s ease;
+  font-size: 14px;
 }
+
+.signup-form__input:hover {
+  background-color: #9deebb;
+}
+
+.signup-form__input:active {
+  background-color: #93dcab;
+}
+
 
 .signup-form__button {
   border: none;
@@ -23,6 +34,13 @@
   padding-left: 24px;
   padding-right: 24px;
   margin: 0 auto;
-  background-color: #FFDD5C;
+  background-color: black;
   border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.signup-form__button:hover {
+  background-color: #100f0f;
 }

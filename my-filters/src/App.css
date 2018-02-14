@@ -26,3 +26,26 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+.fade-appear {
+  /* только-только появился */
+  opacity: .1;
+  transition: opacity .5s;
+}
+
+.fade-appear-active {
+  /* появился и прошло 500 миллисекунд (конец анимации появления)*/
+  opacity: 1;
+}
+
+.fade-leave {
+  /* только-только начал уходить */
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+.fade-leave-active {
+  /* ушел */
+  opacity: .1;
+}
