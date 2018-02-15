@@ -7,7 +7,7 @@ function Input({ type, name, placeholder }) {
       className="signup-form__input"
       type={type}
       name={name}
-      placeholder={placeholder}
+      placeholder={placeholder} required
     />
   );
 }
